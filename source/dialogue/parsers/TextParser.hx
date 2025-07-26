@@ -21,6 +21,7 @@ class TextParser {
             }
             branches[branchName] = dlgBlocks;
         }
+		trace(branches);
         return branches;
     }
 

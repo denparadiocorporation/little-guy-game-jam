@@ -3,9 +3,10 @@ package data;
 import dialogue.data.Branches;
 
 typedef Scene = {
-    var dialogue:Branches;
+	var id:String;
+	var dialogue:String;
     var startBranch:String;
     var startBG:String;
     var startBGM:String;
-    var initAssets:Array<SceneAsset>;
+	var startAssets:Array<SceneAsset>;
 }
